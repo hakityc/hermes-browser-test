@@ -1,0 +1,37 @@
+# Environment and secrets
+.env
+*.env.local
+config/midscene.env
+
+# OS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+midscene_run/
+
+# Reports (optional - uncomment if you want to track reports)
+# reports/*.html
+# reports/*.json
+reports/screenshots/
+
+# Learnings (optional - uncomment if you want to track learnings)
+# learnings/*.md
+
+# Testcases (user-generated, track the folder but ignore content)
+# testcases/*
+
+# Node modules (if any)
+node_modules/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
